@@ -1,0 +1,76 @@
+.addForm,.updateform-container{
+  display:flex;
+flex-direction:column;
+max-width: 500px;
+margin: 20px auto;
+gap: 20px;
+
+}
+
+.movie-container{
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  gap: 20px;
+}
+
+.add{
+  margin: 0px;
+  background-image:url("https://img.freepik.com/free-photo/shopping-bag-cart_23-2148879372.jpg?w=1380&t=st=1710154528~exp=1710155128~hmac=29996ad3ca35998f7b92f13af609af3ce7ed6aa7fad8c41d2722c0960a9340dc.jpg");
+background-repeat: no-repeat;
+min-width: 100%;
+min-height: 100vh;
+background-size: cover;
+
+
+   background-position: center center;
+}
+.get-list{
+  margin: 0px;
+  background-image:url("https://img.freepik.com/free-photo/top-view-desk-with-black-friday-gifts_23-2148288216.jpg?w=1380&t=st=1710154664~exp=1710155264~hmac=3bc2c862b9559a63c40d89ba2b073dfa217d9c8c920126fe80f043d08a8f3f4e.jpg");
+background-repeat: no-repeat;
+min-width: 100%;
+min-height: 100vh;
+background-size: cover;
+
+
+   background-position: center center;
+}
+
+.container{
+  display: flex;
+  margin: 50px;
+  gap: 50px;
+}
+
+.button{
+  display: flex;
+justify-content:space-around;
+  gap: 50px;
+}
+
+.single-container{
+  display: flex;
+  max-width: 70%;
+  margin: 50px auto;
+  gap: 30px;
+  flex-direction: column;
+}
+
+.single-img{
+  max-width:40%;
+ max-height: 50%;
+margin: 0px auto;
+}
+
+.card-name{
+  text-align: center;
+  margin: 0px;
+}
+
+.home-container{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto;
+}
